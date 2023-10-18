@@ -1,7 +1,8 @@
 
 
 # TensorFlow-Distributed-Deep-Learning-Training
-
+<center><p align="center" width="100%"><img 
+src="https://www.jeuneafrique.com/medias/2018/02/26/enis.png" /></p></center>
 This is an academic project titled "TensorFlow-Distributed-Deep-Learning-Training" that aims to showcase the fundamentals of distributed deep learning using TensorFlow. In this project, we provide a simple yet informative example of distributed training setup using TensorFlow. The primary objectives of this project are as follows:
 
 1.  **Multi-Worker Configuration:** We demonstrate how to set up a multi-worker TensorFlow cluster, allowing multiple machines to collaborate in the training process. The provided code illustrates how to define a cluster specification and configure the TF_CONFIG environment variable.
