@@ -1,3 +1,32 @@
+# Repository Description
+
+## Project: Distributed Training Using TensorFlow
+
+This repository contains code and resources related to the "Distributed Training Using TensorFlow" project.
+
+### Directory Structure
+
+- **code/**
+  - `main.py`: The main code file for executing the project.
+
+- **sources/**
+  - `links.txt`: A curated list of useful links, including videos, blogs, and more.
+  - `presentation.pptx`: A presentation detailing the methods and techniques used in the "Distributed Training Using TensorFlow" project.
+
+- **src_readme/**
+  - `enis.jfif`: Image of our school.
+  - `tensorflow.png`: TensorFlow logo.
+
+- `README.md`: The file you are currently reading.
+
+- `environment.yml`: Environment configuration file.
+
+### About the Project
+
+This project focuses on distributed training using TensorFlow. It includes code for executing the project, a collection of useful links, and a presentation that explains the methods and techniques used. Additionally, you can find images related to our school and the TensorFlow logo in the `src_readme/` directory.
+
+Feel free to explore the contents of this repository and refer to the provided resources for more information.
+
 
 
 # TensorFlow-Distributed-Deep-Learning-Training
@@ -13,9 +42,8 @@ This is an academic project titled "TensorFlow-Distributed-Deep-Learning-Trainin
     
 4.  **Model Saving:** The trained model is saved to a file ('model.h5') for later use or evaluation. This demonstrates how to persist the model for future inference or fine-tuning.
 
-
-
-
+### presentation : 
+you can found a presentation of the project under the sources directory or [here](https://docs.google.com/presentation/d/1u6-NVoZSwOWOAhT7Dotpoyo8v8j63153FxTbM7i8yaU/edit?usp=sharing) (online using google slides )
 
 
 
@@ -33,4 +61,59 @@ This is an academic project titled "TensorFlow-Distributed-Deep-Learning-Trainin
 
 - **TensorBoard Integration:** TensorBoard is integrated into the project for visualizing training logs. 
 - **Model Saving:** After training, the entire model is saved to a file ('model.h5') for future use or evaluation.
+
+
+## Run it locally
+To run the code  locally, follow these steps:
+
+#### Clone the repository 
+
+```bash
+  git clone https://github.com/youssefboutaleb/distributed-training-using-tensorflow.git
+```
+
+#### Go to the project directory
+
+```bash
+  cd distributed-training-using-tensorflow
+```
+
+#### Set up a virtual environment and install the required Python packages 
+ Create a Virtual Environment
+
+```bash
+  python -m venv <venv>
+```
+ Activate the Virtual Environment:
+- On Windows:
+
+```bash
+.\<venv>\Scripts\activate
+```
+- On macOS and Linux:
+
+```bash
+source venv/bin/activate
+```
+
+##### Note :
+1.  Change the address IP of the  workers in " cluster_spec ".
+2.  If you use anaconda you can easially create an envirement from "environment.yml".
+
+By following these steps, you can ensure that the code can work sucessfully . But note if a worker start the training , he  will wait the others until start the training also. 
+
+#### Start the training
+
+```bash
+  python main.py
+
+```
+#### Deactivate the Virtual Environment
+
+When you're done working on the project, you can deactivate the virtual environment by running the following command:
+
+```bash
+deactivate
+```
+
 
