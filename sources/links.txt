@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=xzSCvXDcX68
+https://www.youtube.com/watch?v=S1tN9a4Proc
+https://www.youtube.com/watch?v=A6JcvzspH6M
+https://www.youtube.com/watch?v=HgGyWS40g-g
+https://github.com/tensorflow/mesh
+https://keras.io/guides/distributed_training/#multiworker-distributed-synchronous-training
+https://colab.research.google.com/github/keras-team/keras-io/blob/master/guides/ipynb/distributed_training.ipynb
